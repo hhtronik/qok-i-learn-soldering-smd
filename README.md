@@ -37,14 +37,14 @@ Components
 
 | Reference        | Part                        | Notes / Alternative parts  |
 | ---------------- | --------------------------- | -------------------------- |
-| Battery holder   | `Keystone Electronics 3034` | `Linx Technologies BAT-HLD-001` or `MPD BK-912-TR` or `Q&J WJ-CR2032-1-W
+| Battery holder   | `Keystone Electronics 3034` | `Linx Technologies BAT-HLD-001` or `MPD BK-912-TR` or `Q&J WJ-CR2032-1-W`
 | Switch           | `C&K PTS645SL50SMTR92`      | Many surface mount tactile switches with a 6x6mm outline
 | LED              | `Kingbright APTD3216SRCPRV` | Pretty much any `1206` size red LED
 | Resistor         | `Yaego RC1206JR-07100RL`    | Resistor value in kit: 100 Ohm. Alternatively: any `1206` size resistor with the right value (see below)
 
 
 The acceptable value range for the resistor depends on the current rating of the LED. The `Kingbright APTD3216SRCPRV` is rated for 20mA nominal forward current and has a forward voltage of about 2V.
-This means that any resistor bigger than 50 Ohm will we limit the current to 20mA or below. With the kit's 100 Ohms resistor the current will be limited to about 10mA.
+This means that any resistor bigger than 50 Ohm would we limit the current to 20mA or below with a fresh CR2032 battery. With the kit's 100 Ohms resistor the current will be limited to about 10mA. Any value in that 50 - 100 Ohm range will be fine.
 
 
 I don't know anything about electronics, what can I learn?
