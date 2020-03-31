@@ -32,6 +32,67 @@ What equipement do I need?
 
 As always, work safety is important, so don't burn yourself and don't inhale the fumes released while soldering. Working in a well ventilated area is good. We'd definitely recommend adding some ventilation (for example a fan of some sort blowing the fumes away from you or a proper soldering fume extractor if you plan on doing this over and over again :)
 
+Optionally you may have these things around:
+
+- some flux
+- rubbing alcool or isopropanol
+- some lint-free cloth / paper towel
+- a multimeter (ideally with a diode test mode)
+
+Assembly mini guide
+-------------------
+
+1. Clean the PCB with some rubbing alcool and cloth *(optional but recommended)*
+2. Add a bit of solder to one pad of the resistor footprint on the PCB
+3. Take the resistor out of its packaging and hold it down with one terminal agains the blob of solder you just added (make sure the other terminal aligns well with the second pad on the PCB)
+4. Re-melt the solder while gently holding down the resistor
+5. Solder the second terminal to its pad
+6. Check if the solder joints look ok (=> touch up with flux then reflow if they don't)
+7. Repeat the same for the LED **Watch out the note on LED polarization below!** 
+8. Now add a blob of solder to one pad of the switch footprint and tack the switch down so all other pins properly align to the pads on the pcb
+9. Solder down the three remaining pins
+10. The battery holder has two pins designed to be soldered down and a third retaining bit which prevents the battery from sliding out on that side. Place the battery holder so that the battery will slide out over the key-ring hole - not over the components.
+11. Solder down the battery holder last. Don't solder anything to the big central pad of the footprint! **don't burn yourself, the metal part quickly gets super hot - use tweezers**
+12. Check all joints (and measure everything if you know how to do that)
+13. Insert a battery (the positive pole/+ should face up, away from the PCB) and press the button
+
+**...if the LED lights up, well, congratulations you've completed the kit!**
+
+
+Troubleshooting
+----------------
+
+First of all, this is not a bad thing! The real fun actually just begun. Here are some things you want to check:
+
+![HHTronik Q.O.K. / I learn soldering SMD Q.O.K PCB rendering](./assets/troubleshooting.png)
+
+- Check if the battery is inserted the right way around (the + sign should be touching the battery holder)
+- Check the battery voltage with the multimeter (should be > 2.5V ideally)
+- Check all solder joints
+- Measure from point to point (testing order matters, start with the fist points):
+
+| Pads / Test points | Multimeter mode       | Expected result            | Repairing it               |
+| ------------------ | --------------------- | -------------------------- | -------------------------- |
+| `1` (or battery holder metal shell) to `3` | `Continuity` or `resistance` (low range)  | Continuity or < 5 Ohms in resistance test | check the solder joints on the battery holder and switch |
+| `1` to `5` | `continuity` or `resistance`  | Continuity (or < 5 Ohms in resistance test) when you press the button | Check the solder joints on the switch |
+| `1` to `5` | `continuity` or `resistance`  | No continuity (or O.L. / inifinite resistance) when the button is not pressed | Check for solder bridges arround on the switch |
+| `4` to `7` | `diode test`                  | With the positive terminal on `4` and COM/Negative on `7` the LED is expected to turn on. If swapping connections makes the LED light... | ...unsolder the LED and rotate it 180°, it was reversed. |
+| `6` to `8` | `resistance`                  | The meter should read approx. 100 Ohm | Verify the solder joints. 
+
+
+Polarity of LEDs
+----------------
+
+**LEDs are polarized components.** This means that their orientation matters. 
+Most LEDs have a "cathode mark" which indicates where their "negative pin" is, which is componly 
+shown by a green mark on both the cathod contact on the top side and and arrow-like mark on the 
+bottom face of the LED.
+
+The PCB footprint for the LED does mark the cathod too (closed side of the "U" shaped silkscreen print)
+so you should align those.
+
+![HHTronik Q.O.K. / I learn soldering SMD Q.O.K PCB rendering](./assets/led-polarity.png)
+
 Components
 ----------
 
