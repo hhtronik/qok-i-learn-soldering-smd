@@ -89,18 +89,8 @@ Some SMT soldering tutorials worth watching if you've never done this before
 
 [Tomislav Darlic / Soldering 1206 resistor ~ 2min](https://www.youtube.com/watch?v=_DsCdOaRUPM)
 
-What's in this repository?
---------------------------
-
-You'll find a BOM with comments/notes, a PDF schematic and ECAD design files for DesignSpark PCB (you can download a free copy at )
-Software
-You open and edit most files by using free or open-source software.
-
-    ECAD: DesignSpark PCB v9 by RS Online
-    Mechanical: FreeCad or Fusion360
-
 
 LICENCE
 -------
 
-This part of the Craftalight project is licenced under CERN Open Hardware Licence Version 2 - Strongly Reciprocal see LICENCE file
+This project is licenced under CERN Open Hardware Licence Version 2 - Strongly Reciprocal see LICENCE file for the full text.
