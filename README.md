@@ -1,6 +1,8 @@
 HHTronik Q.O.K. / I learn soldering SMD
 =======================================
 
+![HHTronik Q.O.K. / I learn soldering SMD Q.O.K PCB rendering](./assets/pcb-rendering.png)
+
 Want to learn soldering SMD (Surface Mount Devices) components? Then this is for you! **I learn soldering SMD** is a super simple kit designed to give you a (relatively) pain-free crash course in that topic!
 
 When completed you'll have soldered this circuit:
@@ -74,6 +76,17 @@ Some SMT soldering tutorials worth watching if you've never done this before
 [LeoMakes / How to solder surface mount parts (it's easy!) ~ 19min](https://www.youtube.com/watch?v=f9fbqks3BS8)
 [Collin's Lab / Surface Mount Soldering ~ 8min](https://www.youtube.com/watch?v=QzoPxvIM2qE)
 [Tomislav Darlic / Soldering 1206 resistor ~ 2min](https://www.youtube.com/watch?v=_DsCdOaRUPM)
+
+What's in this repository?
+--------------------------
+
+You'll find a BOM with comments/notes, a PDF schematic and ECAD design files for DesignSpark PCB (you can download a free copy at )
+Software
+You open and edit most files by using free or open-source software.
+
+    ECAD: DesignSpark PCB v9 by RS Online
+    Mechanical: FreeCad or Fusion360
+
 
 LICENCE
 -------
