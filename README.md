@@ -3,7 +3,10 @@ HHTronik Q.O.K. / I learn soldering SMD
 
 ![HHTronik Q.O.K. / I learn soldering SMD Q.O.K PCB rendering](./assets/pcb-rendering.png)
 
-Want to learn soldering SMD (Surface Mount Devices) components? Then this is for you! **I learn soldering SMD** is a super simple kit designed to give you a (relatively) pain-free crash course in that topic!
+Want to learn soldering SMT components? Then this is for you! **I learn soldering SMD** is a super simple kit designed to give you a (relatively) pain-free crash course in that topic!
+While SMD might look a bit scary in the beginning it's easily manageable when you stick with reasonably sized components and footprint types. On this kit, the smallest component has a
+1206 (imperial) footprint, that is 0.12x0.06 inches or 3.2x1.6mm **large**. 
+
 
 When completed you'll have soldered this circuit:
 
@@ -20,7 +23,7 @@ When completed you'll have soldered this circuit:
 
 ```
 
-...which is basically the most simple flash light circuit you can think of. Press the switch and current flows from the battery through the LED and resistor. 
+...which is basically the most simple flash light circuit you can think of. Press the switch and current flows from the battery through the resistor and the LED, lighting it up! 
 
 What equipement do I need?
 --------------------------
