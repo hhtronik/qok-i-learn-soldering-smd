@@ -22,6 +22,16 @@ When completed you'll have soldered this circuit:
 
 ...which is basically the most simple flash light circuit you can think of. Press the switch and current flows from the battery through the LED and resistor. 
 
+What equipement do I need?
+--------------------------
+
+- A soldering iron, preferably one with a thin tip
+- Some solder, again, thinner one (< 1mm) will make your life easier
+- Fine tip tweezers
+- Patience if this is your first time soldering SMD
+
+As always, work safety is important, so don't burn yourself and don't inhale the fumes released while soldering. Working in a well ventilated area is good. We'd definitely recommend adding some ventilation (for example a fan of some sort blowing the fumes away from you or a proper soldering fume extractor if you plan on doing this over and over again :)
+
 Components
 ----------
 
@@ -74,7 +84,9 @@ Watch others do
 Some SMT soldering tutorials worth watching if you've never done this before
 
 [LeoMakes / How to solder surface mount parts (it's easy!) ~ 19min](https://www.youtube.com/watch?v=f9fbqks3BS8)
+
 [Collin's Lab / Surface Mount Soldering ~ 8min](https://www.youtube.com/watch?v=QzoPxvIM2qE)
+
 [Tomislav Darlic / Soldering 1206 resistor ~ 2min](https://www.youtube.com/watch?v=_DsCdOaRUPM)
 
 What's in this repository?
