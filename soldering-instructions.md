@@ -69,7 +69,45 @@ This is how it could look like:
 
 ![Soldering that resistor](./assets/soldering-guide-resistor-soldered.jpg)
 
-> work in progress / to be continued....
+
+![SMD LED 101](soldering-guide-SMD-led-101.jpg)
+
+Next it's pretty much *rinse-and-repeat* for the LED, except that it is a polarized component. This means that the orientation you solder it to the PCB matters. This is because they are (Light Emitting) Diodes which can conduct ("pass current") only in one direction. The picture above should help you figure out the polarity of the LED in your kit.
+
+The second thing to know is that LEDs are more sensitive to heat than the resistor you just soldered. This means that you shouldn't hold the soldering iron to its wire for minutes at a time (ideally you should be done in seconds). If you took a long time to solder one of the pads, wait a few seconds to allow it to cool down before moving on!
+
+
+![SMD LED footprint](soldering-guide-SMD-led-footprint.jpg)
+
+Having a look at the LED footprint on the PCB you'll notice the white marking around the pads. It's not just there to outline the location of the component but also gives you a hint about it's polarity. The closed side of the "U" indicated the cathode pad of the footprint. This means you must align the cathod of the LED with that pad (on the left in the picture above).
+
+The actual soldering is pretty much identical to what you already practiced with the resistor: put a dab of solder on one of the pads, slide the corresponding pad of the LED into the molten solder. Repeat for the second pad if you're happy with the alignment. 
+
+![Soldering that LED](./assets/soldering-guide-solder-led.gif)
+
+Next up is the tactile switch. It allows you to close the circuit and thus to light the LED when you want it. It's pretty easy to solder, but again, as the case is made out of plastic, you don't want to totally toast it ;) Give it a few seconds to cool down in between the solder joints and you'll be fine!
+
+![Soldering that LED](./assets/soldering-guide-solder-switch.gif)
+
+As you can see in the clip I started again by having a blob of solder on one pad and sliding the component into its location after melting that solder. Then I just quickly touch up the four other pads/pins. 
+
+Finally we need to solder the battery holder. This one is a bit tricky because it's a larger piece of metal. This means that it'll soak up quite a bit of heat before reaching a temperature where the solder will nicely flow onto it. What works nice it to use a larger portion of the soldering iron's tip touching on the bend of the contact.
+
+Again, we start with some solder on one of the pads (don't solder the big central pad, it's designed to make contact with the battery direcly later on and a nice and flat surface helps there):
+
+![Soldering that LED](./assets/soldering-guide-solder-battery-holder.gif)
+
+
+**Be careful to not burn yourself on the metal clip! It stays hot for a bit and conducts heat very well!**
+
+![Inspecting the finished Q.O.K](./assets/soldering-guide-finished-pcb.jpg)
+
+If everything looks fine you can insert a coin cell (positive terminal / + making contact with the metal clip) into the battery holder and press the button.
+
+...and hopefully enjoy your new red keychain flashlight :)
+
+![Testing the QOK](./assets/soldering-guide-testing.gif)
+
 
 Troubleshooting
 ===============

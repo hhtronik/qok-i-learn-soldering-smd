@@ -45,6 +45,8 @@ Optionally you may have these things around:
 Assembly mini guide
 -------------------
 
+**The detailed soldering guide for beginners is over here: [soldering-instructions.md](./soldering-instructions.md)**
+
 1. Clean the PCB with some rubbing alcool and cloth *(optional but recommended)*
 2. Add a bit of solder to one pad of the resistor footprint on the PCB
 3. Take the resistor out of its packaging and hold it down with one terminal agains the blob of solder you just added (make sure the other terminal aligns well with the second pad on the PCB)
