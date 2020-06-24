@@ -70,14 +70,14 @@ This is how it could look like:
 ![Soldering that resistor](./assets/soldering-guide-resistor-soldered.jpg)
 
 
-![SMD LED 101](soldering-guide-SMD-led-101.jpg)
+![SMD LED 101](./assets/soldering-guide-SMD-led-101.jpg)
 
 Next it's pretty much *rinse-and-repeat* for the LED, except that it is a polarized component. This means that the orientation you solder it to the PCB matters. This is because they are (Light Emitting) Diodes which can conduct ("pass current") only in one direction. The picture above should help you figure out the polarity of the LED in your kit.
 
 The second thing to know is that LEDs are more sensitive to heat than the resistor you just soldered. This means that you shouldn't hold the soldering iron to its wire for minutes at a time (ideally you should be done in seconds). If you took a long time to solder one of the pads, wait a few seconds to allow it to cool down before moving on!
 
 
-![SMD LED footprint](soldering-guide-SMD-led-footprint.jpg)
+![SMD LED footprint](./assets/soldering-guide-SMD-led-footprint.jpg)
 
 Having a look at the LED footprint on the PCB you'll notice the white marking around the pads. It's not just there to outline the location of the component but also gives you a hint about it's polarity. The closed side of the "U" indicated the cathode pad of the footprint. This means you must align the cathod of the LED with that pad (on the left in the picture above).
 
